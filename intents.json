@@ -1,0 +1,108 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["Hi", "Hello there", "Hi there", "Hey", "Hello", "Good morning", "Good afternoon"],
+            "responses": ["Hello!", "Hi there! How can I help you?"],
+            "context": [""]
+        },
+
+        {
+            "tag": "greeting-human",
+            "patterns": ["Hello sir", "Hello ma'am", "Good morning sir", "Good afternoon sir", "Good morning ma'am", "Good afternoon ma'am"],
+            "responses": ["Hello!", "Hi there! How can I help you?"],
+            "context": [""]
+        },
+
+        {
+            "tag": "greeting-name-enquiry",
+            "patterns": ["What is your name", "What are you called", "Do you have a name"],
+            "responses": ["I don't have a name. I am just called Bot"],
+            "context": [""]
+        },
+
+        {
+            "tag": "goodbye",
+            "patterns": ["Bye", "See you later", "Goodbye", "Nice talking to you"],
+            "responses": ["Bye", "See you", "Have a nice day", "Bye! Let me know if you have anymore queries"],
+            "context": [""]
+        },
+
+        {
+            "tag": "thanks",
+            "patterns": ["Thanks", "Thank you", "Thanks for helping me", "Awesome", "That's helpful"],
+            "responses": ["Happy to help!", "My pleasure"],
+            "context": [""]
+        },
+
+        {
+            "tag": "no-answer",
+            "patterns": [],
+            "responses": ["Sorry, I can't understand you", "Please give me more info"],
+            "context": [""]
+        },
+
+        {
+            "tag": "",
+            "patterns": [],
+            "responses": [],
+            "context": [""]
+        },
+
+        {
+            "tag": "help-query",
+            "patterns": ["I need some help", "help", "need help", "I have a question", "I have a query"],
+            "responses": ["I can assist you with any queries regarding libraray support in LPU like finding books, how many books we have, and what book u should prefer for your course."],
+            "context": [""]
+        },
+
+        {
+            "tag": "search-library management system",
+            "patterns": ["I want to search library management system in ums.", "I want to go on library management system. ", "library management system information"],
+            "responses": ["You can search lms by clicking on home button and then to ums navigation. There u can find lms."],
+            "context": [""]
+        },
+
+        {
+            "tag": "book-prefer",
+            "patterns": ["Which books should i prefer for my subjects.", "Books preference according to my subjects.", "Books prefernce acc to need"],
+            "responses": ["U can prefer the books for your respective subjects with the help of your academic syllabus's Text books authorised."],
+            "context": [""]
+        },
+
+        {
+            "tag": "borrow-book",
+            "patterns": ["How can i borrow a book from library.", "how to take a book from library","how to borrow a book"],
+            "responses": ["U can take a book from library as per your need after issued by librarian "],
+            "context": [""]
+        },
+
+        {
+            "tag": "contact-librarian",
+            "patterns": ["how can i contact to librarian", "contact to librarian,"],
+            "responses": ["U can meet to librarian directly in library, or u can mail him via library management system in ums."],
+            "context": [""]
+        },
+
+        {
+            "tag": "issued-book",
+            "patterns": ["how to find issued books.", "issued books names.","issued books"],
+            "responses": ["U can know about the books that have issued to you via 'Books issued from library' option in ums."],
+            "context": [""]
+        },
+
+        {
+            "tag": "Dicussion-room",
+            "patterns": ["How to book discussion room.","discussion room booking", "how to find discussion room booking"],
+            "responses": ["U can book discussion room via your ums account in library managememnt section or can visit library for more info."],
+            "context": [""]
+        },
+        
+        {
+            "tag": "reserved-books",
+            "patterns": ["can I take reserved books from library.", "how to take reserved books from library", "read reserved books"],
+            "responses": ["You can not borrow the reserved book . They are for reading purpose in library only ."],
+            "context": [""]
+        }
+    ]
+}
